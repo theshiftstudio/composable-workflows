@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="PanelDialog">
+    <item name="android:windowAnimationStyle">@style/PanelDialogAnimation</item>
+    <item name="android:backgroundDimAmount">0</item>
+    <item name="android:windowSoftInputMode">adjustResize</item>
+  </style>
+
+  <style name="PanelDialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/panel_enter</item>
+    <item name="android:windowExitAnimation">@anim/panel_exit</item>
+  </style>
+
+</resources>

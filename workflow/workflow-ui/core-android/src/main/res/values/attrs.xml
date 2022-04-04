@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="WorkflowViewStub">
+    <!-- Used as the id of views created via a WorkflowViewStub -->
+    <attr name="inflatedId" format="reference"/>
+
+    <!--
+    Indicates that calls to update will also update the visibility of
+    the proxied view. Defaults to true.
+    -->
+    <attr name="updatesVisibility" format="boolean"/>
+  </declare-styleable>
+</resources>
