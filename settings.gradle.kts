@@ -45,6 +45,9 @@ include(
     ":samples:workflow1-samples-containers:android",
     ":samples:workflow1-samples-containers:common",
 
+    ":samples:hello:app",
+    ":samples:hello:common",
+
     ":samples:tictactoe:app",
     ":samples:tictactoe:common",
 )
