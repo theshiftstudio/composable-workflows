@@ -15,6 +15,7 @@ buildscript {
         classpath(libs.kotlin.serialization.gradle.plugin)
         classpath(libs.ktlint.gradle)
         classpath(libs.google.ksp)
+        classpath(libs.google.dagger.hilt.plugin)
         classpath(libs.molecule.plugin)
     }
 }
